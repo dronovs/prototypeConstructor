@@ -96,3 +96,7 @@ console.log(newStudent.getAverageAttendance());
 console.log(newStudent.getAverageMark());
 console.log(newStudent.summary());
 console.log(newStudent);
+
+function talk () {
+    speechSynthesis.speak(new SpeechSynthesisUtterance('Привет'));
+}
